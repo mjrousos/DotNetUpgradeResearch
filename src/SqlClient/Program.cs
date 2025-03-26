@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
 
 namespace SqlClientSample
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var connectionString = "Server=(LocalDb)\\MSSQLLocalDB;Database=SampleDatabase;Trusted_Connection=True;";
-            var tableName = $"TestTable_{Guid.NewGuid().ToString("N")}";
+            var tableName = $"TestTable_{Guid.NewGuid():N}";
 
             try
             {
