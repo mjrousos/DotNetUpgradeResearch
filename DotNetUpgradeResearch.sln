@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlClient", "src\SqlClient\SqlClient.csproj", "{5E15D94C-9F84-47FA-BB27-21EDC4692F57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationSample", "src\JsonSerialization\SerializationSample.csproj", "{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,24 @@ Global
 		{5E15D94C-9F84-47FA-BB27-21EDC4692F57}.Release|x64.Build.0 = Release|Any CPU
 		{5E15D94C-9F84-47FA-BB27-21EDC4692F57}.Release|x86.ActiveCfg = Release|Any CPU
 		{5E15D94C-9F84-47FA-BB27-21EDC4692F57}.Release|x86.Build.0 = Release|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Debug|x64.Build.0 = Debug|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Debug|x86.Build.0 = Debug|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Release|x64.ActiveCfg = Release|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Release|x64.Build.0 = Release|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Release|x86.ActiveCfg = Release|Any CPU
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E15D94C-9F84-47FA-BB27-21EDC4692F57} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
