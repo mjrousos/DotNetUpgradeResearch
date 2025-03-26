@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlClient", "src\SqlClient\SqlClient.csproj", "{5E15D94C-9F84-47FA-BB27-21EDC4692F57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlClientSample", "src\SqlClientSample\SqlClientSample.csproj", "{5E15D94C-9F84-47FA-BB27-21EDC4692F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationSample", "src\JsonSerialization\SerializationSample.csproj", "{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationSample", "src\SerializationSample\SerializationSample.csproj", "{97556CB5-B6DE-47C9-AA1C-BE8D5F4EED1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
