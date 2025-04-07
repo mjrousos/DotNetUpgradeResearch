@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<Frameworks>|netstandard2.0|netcoreapp3.1|net6.0|net7.0|</Frameworks>
+	</PropertyGroup>
+	<ItemGroup Condition="$(Frameworks.Contains('|$(TargetFramework)|'))">
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+</Project>
