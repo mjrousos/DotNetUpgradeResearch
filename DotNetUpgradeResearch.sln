@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreSample", "src\EfCoreS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreSample.Tests", "src\EfCoreSample.Tests\EfCoreSample.Tests.csproj", "{00406844-BEEC-463B-8E31-A41C5C74E697}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDowngrade", "src\EfDowngrade\EfDowngrade.csproj", "{77B5E3C1-C05D-4A48-993D-70122BB7949A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +171,18 @@ Global
 		{00406844-BEEC-463B-8E31-A41C5C74E697}.Release|x64.Build.0 = Release|Any CPU
 		{00406844-BEEC-463B-8E31-A41C5C74E697}.Release|x86.ActiveCfg = Release|Any CPU
 		{00406844-BEEC-463B-8E31-A41C5C74E697}.Release|x86.Build.0 = Release|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Debug|x64.ActiveCfg = Debug|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Debug|x64.Build.0 = Debug|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Debug|x86.ActiveCfg = Debug|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Debug|x86.Build.0 = Debug|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Release|Any CPU.Build.0 = Release|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Release|x64.ActiveCfg = Release|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Release|x64.Build.0 = Release|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Release|x86.ActiveCfg = Release|Any CPU
+        {77B5E3C1-C05D-4A48-993D-70122BB7949A}.Release|x86.Build.0 = Release|Any CPU		
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
